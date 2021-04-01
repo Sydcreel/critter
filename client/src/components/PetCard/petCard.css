@@ -1,0 +1,81 @@
+.petCard {
+    word-wrap: normal;
+    height: 375px;
+    background-color: #badefc;
+    margin-top: 1em;
+    border: #9443b1 solid 1px;
+}
+
+.username {
+    color: white;
+    font-weight: bolder;
+    background-color: #9443b1;
+    margin-bottom: 0%;
+    font-size: 100%;
+}
+
+.petCard:hover > .username {
+    overflow:visible;
+}
+
+.username  {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.petCard-container {
+    padding-right: 2em;
+}
+
+
+.female-card {
+    color: #7e0c9e;
+    font-size: 2em
+}
+
+.male-card {
+    color: #7e0c9e;
+    font-size: 2em
+}
+
+.image {
+    margin-top: 0%;
+    max-height: 140px;
+}
+
+.image-container {
+    height: 150px;
+
+}
+
+.petBody {
+    color: #1c6cb8;
+    font-size: 100%;
+    font-weight: bolder;
+    background-color: #badefc;
+
+}
+
+/* Relationship status */
+
+.heart-card {
+    color: #7e0c9e;
+    font-size: 2em;
+}
+/* ::-webkit-scrollbar {
+    width: .5em;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(67, 55, 61, 0.3);
+    background-color: var(--accent-dark);
+}
+::-webkit-scrollbar-thumb {
+    background-color: #DBBFE4;
+    outline: 1px solid #433737;
+    border-radius: 25px;
+    box-shadow: 0 1px #BC8ACE;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #9443b1; 
+}   */
